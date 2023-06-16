@@ -1,7 +1,7 @@
 # **Whisper+: Convierte videos o audios a texto**
 
 ## **Introducción**
-Whisper+ es una herramienta que extiende las utilidades principales del proyecto [Whisper AI](https://github.com/openai/whisper). A continuación se presenta una gía de instalación y uso: 
+Whisper+ es una herramienta que extiende las utilidades principales del proyecto [Whisper AI](https://github.com/openai/whisper). A continuación se presenta una guía de instalación y uso: 
 
 ## **Instalación de Whisper+**
 El script en cuestión tiene un archivo _requirements.txt_ el cual especifica las dependencias que se necesitan para correr dicho script. 
