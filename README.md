@@ -68,7 +68,11 @@ $ export PATH="/ruta/hacia/scripts:$PATH"
 ```
 $ source ~/.bashrc
 ```
+7. Una vez en el directorio correcto, ejecuta el siguiente comando para otorgar permisos de ejecución al archivo:
 
+```
+chmod +x "whisper+.py"
+```
 Ahora, podrás ejecutar tus scripts desde cualquier ubicación en la terminal de Linux simplemente escribiendo el nombre del script.
 
 Después de seguir estos pasos, podrás llamar a tus scripts desde cualquier ubicación en la línea de comandos tanto en Windows como en Linux sin tener que especificar la ruta completa.
@@ -94,14 +98,14 @@ Para el uso de whisper, se han creado varias banderas o flags:
 Para transformar un solo audio a texto simple, usted puede usar: 
 
 ``` 
-$ whisper+ -a -i ./audio.mp3 -m base 
+$ whisper+.py -a -i ./audio.mp3 -m base 
 ```
   
 
 ### **De video a texto**
 Para transformar un solo video a texto, usted puede utilizar: 
 ``` 
-$ whisper+ -v -i ./audio.mp3 -m base 
+$ whisper+.py -v -i ./audio.mp3 -m base 
 ```
 
 ### **De directorio de videos a texto**
@@ -109,7 +113,7 @@ Para transformar un directorio que contenga varios videos a texto, usted podrá 
 
 
 ``` 
-$ whisper+ -v -d -i ./folder/ -m base 
+$ whisper+.py -v -d -i ./folder/ -m base 
 ```
   
 Luego de ejecutar este comando, se obtendrá como resultado, un nuevo directorio denominado _output_ en el cual constan cada uno de los archivos de texto que fueron transformados de los videos antes suministrados. 
@@ -119,7 +123,7 @@ Para transformar un directorio que contenga varios audios a texto, usted podrá 
 
 
 ``` 
-$ whisper+ -a -d -i ./folder/ -m base 
+$ whisper+.py -a -d -i ./folder/ -m base 
 ```
   
 Luego de ejecutar este comando, se obtendrá como resultado, un nuevo directorio denominado _output_ en el cual constan cada uno de los archivos de texto que fueron transformados de los audios antes suministrados. 
